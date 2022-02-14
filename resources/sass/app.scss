@@ -1,0 +1,58 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-series {
+    padding: 0 4rem;
+}
+
+h1 {
+    padding: 2rem 2rem 2rem 4rem;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.item {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+button {
+    padding: 0.7rem 1.5rem;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    margin: 1.5rem 1.5rem 0 0;
+    color: white;
+}
+
+.edit-btn {
+    background-color: cornflowerblue;
+}
+
+.delete-btn {
+    background-color: coral;
+}
+
+.add-btn {
+    color: black;
+}
